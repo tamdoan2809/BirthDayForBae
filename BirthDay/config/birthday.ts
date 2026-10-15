@@ -28,7 +28,7 @@ export const birthdayConfig: BirthdayConfig = {
     skip: "Bỏ qua video",
   },
   // Đặt video thật tại public/media/birthday-song.mp4. aspect: "9/16" (dọc) hoặc "16/9" (ngang)
-  video: { src: "/media/birthday-song.mov", poster: "", aspect: "9/16" },
+  video: { src: "/media/birthday-song.mp4", poster: "", aspect: "9/16" },
   photos: { room: "/photos/room.jpg", song: "/photos/song.jpg", letterTop: "/photos/letter-top.jpg", letterBottom: "/photos/letter-bottom.jpg" },
   envelope: { title: "Em mở thư nhaaa 💌", sub: "Anh còn một chút điều muốn nói với em..." },
   letter: {
