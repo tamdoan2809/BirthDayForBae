@@ -29,7 +29,11 @@ export default function EnvelopeScene({ onRestart }: { onRestart: () => void }) 
             <p className="l-deco" aria-hidden>✿ ♡ ✿</p>
             <h2 className="l-greet">{C.letter.greeting}</h2>
             {/* --chèn ảnh: ảnh đầu thư */}
-            <PhotoSlot src={C.photos.letterTop} label="Chèn ảnh" className="l-photo" />
+            <PhotoSlot
+  src={C.photos.letterTop}
+  label="Chèn ảnh"
+  className="l-photo l-photo-top"
+/>
             {C.letter.paragraphs.map((p, i) => (<div key={i}><p className="l-p">{p}</p>{i < C.letter.paragraphs.length - 1 && <p className="l-div" aria-hidden>♡</p>}</div>))}
             {/* --chèn ảnh: ảnh cuối thư */}
             <PhotoSlot src={C.photos.letterBottom} label="Chèn ảnh" className="l-photo" />

@@ -138,6 +138,9 @@ html,body{margin:0;height:100%;overflow-x:hidden;background:var(--cream);color:v
   box-shadow: 0 4px 10px rgba(0,0,0,.1);
   margin: 14px 0;
 }
+.l-photo-top img {
+  object-position: center 30%;
+}
 .l-sign{margin:22px 0 4px;text-align:right;font:400 30px var(--font-hand);color:var(--pink-d)}
 .l-final{text-align:center;font:800 18px var(--font-display);color:var(--text);margin:18px 0 6px}
 .l-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
